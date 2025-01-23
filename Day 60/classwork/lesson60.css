@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    animation: rotate 5s infinite;
+    box-shadow: 0px 0px 50px aqua;
+    animation-iteration-count: infinite;
+}
+.box1 {
+    animation-duration: 4s;
+}
+.box2 {
+    animation-duration: 6s;
+}
+.box3 {
+    animation-duration: 3s;
+}
+.box4 {
+    animation-duration: 5s;
+}
+.box5 {
+    animation-duration: 7s;
+}
+@keyframes rotate {
+    0% { 
+        transform: rotate(0deg) translateX(0); 
+    }
+    25% {
+        transform: rotate(180deg) translateX(200px);
+    }
+    50% { 
+        transform: rotate(360deg) translateX(0);
+    }
+    75% { 
+        transform: rotate(540deg) translateX(-200px); 
+    }
+    100% {
+        transform: rotate(720deg) translateX(0);
+    }
+}
+.box1 { background-color: red; animation-timing-function: ease; }
+.box2 { background-color: blue; animation-timing-function: linear; }
+.box3 { background-color: green; animation-timing-function: ease-in; }
+.box4 { background-color: yellow; animation-timing-function: ease-out; }
+.box5 { background-color: purple;}

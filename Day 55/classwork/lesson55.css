@@ -1,0 +1,32 @@
+.div{
+    background-color: rgb(0, 21, 112);
+    display: flex;
+    justify-content: space-around ;
+    height: 300px;
+    width: 300px;
+    gap: 20px;
+}
+.block1{
+    color: aqua;
+    text-shadow: 2px 3px 7px green;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+}
+.block2{
+    color: aqua;
+    text-shadow: 2px 3px 7px green;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+}
+.block3{
+    color: aqua;
+    text-shadow: 2px 3px 7px green;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+}
